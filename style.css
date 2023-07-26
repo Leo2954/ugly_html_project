@@ -1,0 +1,72 @@
+/* Set the body background to black */
+body {
+    background-color: black;
+    color: white; /* Since the background is black, set the text color to white for readability */
+}
+
+/* Give a yellow color to the h1 "Pokemon!" and center it */
+.introduction h1 {
+    background-color: blue;
+    color: yellow;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Make the h2 "Let's learn about our gen 1 starters" smaller and shifted to the left */
+.introduction h2 {
+    font-size: 16px; /* You can adjust the size to your liking */
+    text-align: left;
+}
+
+/* Add a thin blue border around the starters image and provide 1px space between the border and the image */
+#starters_image_div img {
+    border: 3px solid blue;
+    display: block;
+    margin: auto;
+    padding: 3px;
+}
+
+/* Make images the same size and center them */
+.pokemon_images {
+    width: 150px; /* You can adjust the size to your liking */
+    height: auto; /* Maintain the aspect ratio of the images */
+    display: block; /* Allow for the use of margin: auto */
+    margin: auto; /* Center the image */
+}
+
+/* Create a box with rounded edges behind each pokemon's name and description */
+.each_pokemon_container,
+#bulbasaur_container,
+#charmander_container,
+#squirtle_container {
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    
+}
+
+#bulbasaur_container {
+    background-color: lightgreen;
+    border: 1px solid white;
+}
+
+#charmander_container {
+    background-color: #f5b642; 
+    border: 1px solid white;
+}
+
+#squirtle_container {
+    background-color: lightblue;
+    border: 1px solid white;
+}
+
+/* Keep the descriptions in a readable format */
+.pokemon_description {
+    max-width: 800px; /* You can adjust this as necessary */
+    margin: auto; /* Center the text block */
+}
+
+/* Keep the name centered and well formatted */
+.pokemon_names {
+    text-align: center;
+}
